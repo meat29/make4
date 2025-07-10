@@ -7,7 +7,7 @@ st.set_page_config("MAKE4フィルターシミュレーター", layout="centered
 st.title("MAKE4フィルターシミュレーター:非公式")
 
 # サイドバーでタブ選択
-tab_selection = st.sidebar.radio("表示する画面を選んでね", ["▶ フィルターを選ぶ", "🎯 目標から探す", "🌟 おすすめから探す"])
+tab_selection = st.sidebar.radio("表示する画面を選んでね", ["フィルターを選ぶ", "目標から探す", "好みの音から探す"])
 
 # データ読み込み
 df = pd.read_csv("filters.csv")
